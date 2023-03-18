@@ -1,0 +1,26 @@
+.header {
+  background-color: rgb(73, 70, 70);
+  display: flex;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  border: none;
+  align-items: center;
+  height: 60px;
+  padding: 0 30px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+  z-index: 100;
+}
+
+.logoSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sheesh-logo {
+  height: 44px;
+  object-fit: contain;
+}
